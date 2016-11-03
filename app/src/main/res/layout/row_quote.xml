@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        cardView:cardBackgroundColor="@android:color/white"
+        cardView:cardCornerRadius="8dp"
+        cardView:cardElevation="5dp"
+        cardView:contentPadding="5dp"
+        cardView:contentPaddingLeft="10dp"
+        cardView:contentPaddingRight="10dp"
+        android:layout_margin="10dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvAuthor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/app_font_large"
+                android:textColor="@android:color/black"
+                android:padding="5dp"
+                android:text="Abraham Lincoln"/>
+
+            <TextView
+                android:id="@+id/tvQuote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvAuthor"
+                android:padding="5dp"
+                android:textSize="@dimen/app_font_medium"
+                android:text="Na nana na na"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

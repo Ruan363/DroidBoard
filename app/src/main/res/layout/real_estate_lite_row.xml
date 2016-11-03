@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linTopAtts"
+        android:orientation="horizontal"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp">
+
+        <TextView
+            android:id="@+id/tvSuburb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/app_font_medium"
+            android:text="Sandton"/>
+
+        <TextView
+            android:id="@+id/tvProvince"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/app_font_medium"
+            android:text="Gauteng"/>
+
+        <ImageView
+            android:id="@+id/imgFlag"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"/>
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/app_font_medium"
+            android:text="19/10/2016"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linBottomAtts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linTopAtts"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/app_font_large"
+            android:text="Price"/>
+
+        <ImageView
+            android:id="@+id/imgAttSymbol"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"/>
+
+        <TextView
+            android:id="@+id/tvAmmountAttachments"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/app_font_medium"
+            android:text="Date"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/undo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNDO"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/black"
+        android:layout_below="@+id/linBottomAtts"/>
+
+</RelativeLayout>

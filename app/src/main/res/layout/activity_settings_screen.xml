@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+android:id="@+id/drawer_layout"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fitsSystemWindows="true"
+tools:openDrawer="start"
+tools:context="droidboard.ruan.co.za.droidboard.screens.SettingsScreen">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/viewToolbar"
+        layout="@layout/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imgNotifications"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_below="@+id/viewToolbar"
+        android:padding="5dp"
+        android:src="@drawable/ic_notifications_black_24dp"
+        android:onClick="gotoNotifications"/>
+
+    <TextView
+        android:id="@+id/tvNotifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewToolbar"
+        android:layout_toRightOf="@id/imgNotifications"
+        android:layout_alignTop="@id/imgNotifications"
+        android:layout_alignBottom="@id/imgNotifications"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:text="Notifications"
+        android:textSize="@dimen/app_font_medium"
+        android:textColor="@android:color/black"
+        android:onClick="gotoNotifications"/>
+
+    <ImageView
+        android:id="@+id/imgGoogle"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_below="@+id/imgNotifications"
+        android:padding="5dp"
+        android:src="@drawable/ic_google_settings"
+        android:onClick="gotoGoogle"/>
+
+    <TextView
+        android:id="@+id/tvGoogleSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNotifications"
+        android:layout_toRightOf="@id/imgGoogle"
+        android:layout_alignTop="@id/imgGoogle"
+        android:layout_alignBottom="@id/imgGoogle"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:text="Google Settings"
+        android:textSize="@dimen/app_font_medium"
+        android:textColor="@android:color/black"
+        android:onClick="gotoGoogle"/>
+
+    <ImageView
+        android:id="@+id/imgLogout"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_below="@+id/imgGoogle"
+        android:padding="5dp"
+        android:tint="@android:color/black"
+        android:src="@mipmap/ic_logout"
+        android:onClick="logout"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgGoogle"
+        android:layout_toRightOf="@id/imgLogout"
+        android:layout_alignTop="@id/imgLogout"
+        android:layout_alignBottom="@id/imgLogout"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:text="Logout"
+        android:textSize="@dimen/app_font_medium"
+        android:textColor="@android:color/black"
+        android:onClick="logout"/>
+
+</RelativeLayout>
+
+<android.support.design.widget.NavigationView
+    android:id="@+id/nav_view"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:fitsSystemWindows="true"
+    app:headerLayout="@layout/nav_header_home_screen"
+    app:menu="@menu/drawer_menu_main"
+    android:visibility="gone"/>
+
+</android.support.v4.widget.DrawerLayout>

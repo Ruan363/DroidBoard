@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="@dimen/app_font_medium"
+        android:text="How often do you want to receive notifications?"/>
+
+    <RadioGroup
+        android:id="@+id/rgrpFrequency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/radioHourly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hourly"/>
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/radioDaily"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily"/>
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/radioWeekly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weekly"/>
+
+    </RadioGroup>
+
+</LinearLayout>

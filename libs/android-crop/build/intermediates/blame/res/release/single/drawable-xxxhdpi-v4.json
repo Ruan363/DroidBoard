@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\DroidBoard\\libs\\android-crop\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\crop__divider.9.png",
+        "source": "D:\\DroidBoard\\libs\\android-crop\\src\\main\\res\\drawable-xxxhdpi\\crop__divider.9.png"
+    },
+    {
+        "merged": "D:\\DroidBoard\\libs\\android-crop\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4\\crop__tile.png",
+        "source": "D:\\DroidBoard\\libs\\android-crop\\src\\main\\res\\drawable-xxxhdpi\\crop__tile.png"
+    }
+]

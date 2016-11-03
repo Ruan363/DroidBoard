@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<familyset>
+    <family>
+        <nameset>
+            <name>roboto</name>
+        </nameset>
+        <fileset>
+            <file>Roboto-Regular.ttf</file>
+            <file>Roboto-Bold.ttf</file>
+            <file>Roboto-Italic.ttf</file>
+            <file>Roboto-BoldItalic.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <nameset>
+            <name>helvetica</name>
+        </nameset>
+        <fileset>
+            <file>HelveticaRounded-Bold.otf</file>
+            <file>HelveticaRounded-Black.otf</file>
+            <file>HelveticaRounded-BoldCondObl.otf</file>
+            <file>HelveticaRounded-BlackObl.otf</file>
+        </fileset>
+    </family>
+</familyset>

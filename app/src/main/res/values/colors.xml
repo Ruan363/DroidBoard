@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="lightGrey">#808080</color>
+    <color name="lightestGrey">#cccccc</color>
+    <color name="lightGreyHeading">#999999</color>
+
+    <color name="gradient_start">#cc53E4D0</color>
+    <color name="gradient_end">#cc1BA4F4</color>
+    <color name="gradient_center">#cc37c4e2</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="background_default">#EEEEEE</color>
+    <color name="dodgerBlue">#1BA4F4</color>
+    <color name="dimGrey">#707070</color>
+    <color name="silver">#C5C5C5</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="red">#FF0000</color>
+    <color name="manatee">#979797</color>
+
+    <color name="popupbackground">#CC363636</color>
+
+    <color name="female">#FFFF83AE</color>
+    <color name="male">#FF83D3FF</color>
+
+    <color name="darkTurquoise">#00b6de</color>
+
+    <color name="darkBlue">#1976D2</color>
+
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_300">#E0E0E0</color>
+</resources>
