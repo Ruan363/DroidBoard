@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\DroidBoard\\libs\\android-crop\\build\\intermediates\\res\\merged\\release\\values-large-v4\\values-large-v4.xml",
+        "outputFile": "C:\\GitHub\\DroidBoard\\libs\\android-crop\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 98
                 },
                 "from": {
-                    "file": "D:\\DroidBoard\\libs\\android-crop\\src\\main\\res\\values-large\\dimens.xml",
+                    "file": "C:\\GitHub\\DroidBoard\\libs\\android-crop\\src\\main\\res\\values-large\\dimens.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

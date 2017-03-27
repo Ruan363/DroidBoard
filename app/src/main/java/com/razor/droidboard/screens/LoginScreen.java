@@ -153,7 +153,7 @@ public class LoginScreen extends BaseActivity implements LoaderCallbacks<Cursor>
                         {
                             requestPermissions(new String[]{READ_CONTACTS}, REQUEST_READ_CONTACTS);
                         }
-                    });
+                    }).show();
         }
         else
         {

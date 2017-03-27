@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DroidBoard.iml" filepath="$PROJECT_DIR$/DroidBoard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DroidBoard.iml" filepath="$PROJECT_DIR$/DroidBoard.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/android-crop/crop.iml" filepath="$PROJECT_DIR$/libs/android-crop/crop.iml" />
       <module fileurl="file://$PROJECT_DIR$/libs/android-crop/crop.iml" filepath="$PROJECT_DIR$/libs/android-crop/crop.iml" />
     </modules>
   </component>

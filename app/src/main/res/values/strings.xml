@@ -24,6 +24,8 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="permission_rationale_maps">"Location permissions are needed in order to show your position on the map."
+    </string>
     <string name="title_activity_settings_screen">Settings</string>
     <string name="title_activity_notifications_screen">Manage your Notifications</string>
 
@@ -96,5 +98,6 @@
     <string name="disconnect">Disconnect</string>
     <string name="firebase_status_fmt">Firebase User: %s</string>
     <string name="loading">Loading…</string>
+    <string name="title_activity_places_screen">Map</string>
 
 </resources>

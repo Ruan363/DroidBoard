@@ -23,6 +23,7 @@ import android.widget.Toast;
 import com.razor.droidboard.R;
 import com.razor.droidboard.screens.HomeScreen;
 import com.razor.droidboard.screens.LoginScreen;
+import com.razor.droidboard.screens.PlacesScreen;
 import com.razor.droidboard.screens.QuotesScreen;
 import com.razor.droidboard.screens.SettingsScreen;
 import com.razor.droidboard.screens.SnapshotScreen;
@@ -119,6 +120,10 @@ public class BaseDrawerActivity extends AppCompatActivity implements NavigationV
         else if (id == R.id.nav_settings)
         {
             goToActivity(BaseDrawerActivity.this, SettingsScreen.class, 0, true);
+        }
+        else if (id == R.id.nav_places)
+        {
+            goToActivity(BaseDrawerActivity.this, PlacesScreen.class, 0, true);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

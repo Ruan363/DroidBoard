@@ -20,12 +20,12 @@
             android:title="Settings"/>
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Global">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/nav_places"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share"/>
+                android:title="Favourite Places"/>
         </menu>
     </item>
 
